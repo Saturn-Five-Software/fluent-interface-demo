@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentInterfaceDemo", "FluentInterfaceDemo.csproj", "{637FF995-0430-46BF-9321-00A76D929CEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{637FF995-0430-46BF-9321-00A76D929CEF}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{637FF995-0430-46BF-9321-00A76D929CEF}.Debug|anycpu.Build.0 = Debug|anycpu
+		{637FF995-0430-46BF-9321-00A76D929CEF}.Release|anycpu.ActiveCfg = Release|anycpu
+		{637FF995-0430-46BF-9321-00A76D929CEF}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
