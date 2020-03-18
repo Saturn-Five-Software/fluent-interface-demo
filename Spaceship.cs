@@ -42,7 +42,7 @@ namespace FluentInterfaceDemo
         }
     }
 
-    public static class Spaceships
+    public static class MySpaceships
     {
         public static Spaceship OfSmallSize(this Spaceship spaceship)
         {
@@ -64,5 +64,16 @@ namespace FluentInterfaceDemo
             spaceship.Height = 1000;
             return spaceship;
         }
+
+        public static Spaceship OfSize(this Spaceship spaceship, int width, int height)
+        {
+            spaceship.Width = width;
+            spaceship.Height = height;
+
+            if (spaceship.Height < 100)
+                spaceship.HasThrusters = false;
+            return spaceship;
+        }
+
     }
 }
